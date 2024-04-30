@@ -1,0 +1,34 @@
+body{
+    background-color: darkblue;
+}
+.container{
+
+    background-color: white;
+    border-radius: 12px;
+    height: auto;
+    padding-top: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+h1{
+
+    text-align: center;
+}
+
+  @media screen and (min-width: 580px) {
+    body {
+      background-color: rgb(7, 7, 7);
+    }
+  }  @media screen and (min-width: 780px) {
+    body {
+      background-color: rgb(161, 20, 129);
+    }
+  }  @media screen and (min-width: 980px) {
+    body {
+      background-color: rgb(22, 55, 202);
+    }
+  }@media screen and (min-width: 1180px) {
+    body {
+      background-color: rgb(125, 196, 125);
+    }
+  }
